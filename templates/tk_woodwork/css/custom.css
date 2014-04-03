@@ -1,0 +1,202 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/*
+ * ThemeKat styles
+ */
+
+
+/*main sections*/ 
+#page {background:url(../images/background.png); background-attachment: fixed;}
+
+#main, #top-a, #top-b, #bottom-a, #bottom-b {background:#ffe8b2;}
+
+#toolbar, #headerbar {color:#fff;}
+
+#logo p {margin:0; padding:0;}
+
+#menubar {background:#3b2500; padding:5px;}
+
+#header, #headerbar {margin:0; padding:0;}
+
+#footer {color:#ffe8b2;}
+
+#footer a {color:#ffcd56;}
+
+#footer a:hover {color:#fff;}
+
+
+/*system*/
+#system .item > header .meta { color: #3b2500; }
+
+#system .title a { color: #3b2500; }
+
+#system .pagination a,
+#system .pagination strong { border: 1px solid #ffc747; background:#ffe19c; }
+
+#system .items .item {
+	margin-top: 12px;
+	padding-top: 18px;
+	border-top: 1px dashed #ffc747;
+}
+
+#system .items .leading .item {
+	padding-bottom: 12px;
+	margin-bottom: 18px;
+	border-bottom: 1px dashed #ffc747;
+}
+
+#system .item-list { border-top: 1px dashed #ffc747; }
+
+.searchbox {
+	width: 100px;
+	height: 30px;
+	padding: 0 25px;
+	border: 1px solid #ddd;
+	background:#fff url(../images/searchbox_magnifier.png) 0 50% no-repeat;	
+}
+
+.searchbox .results {
+	top: 41px;
+	right: -1px;
+	width: 300px;
+	border: none;
+	background: #3b2500;
+	color:#fff;
+}
+
+.searchbox .results h3 {color:#ffe8b2;}
+
+.searchbox .results li.result.selected { background-color: #754900; }
+
+#system span.highlight {
+background-color: #ffc133;
+}
+
+.links a, form.short input[type="submit"], form.box button, form.box input[type="button"],button, input[type="button"], input[type="submit"] [type="reset"], .button-default {
+	padding:6px 8px 6px 8px;
+	background:#754900;
+	color:#fff;
+	border:none;
+}
+
+#system form.submission fieldset > div > textarea, #system form.submission fieldset > div > input[type="text"], form.box fieldset, form.box legend, textarea, input, select {
+	border: 1px solid #ffc747;
+}
+
+#system small { color: #000; }
+
+
+
+
+
+/*menus*/
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 {
+	border: none;
+	color: #fff;
+}
+
+.menu-dropdown li.active .level1 { color: #fff; background:#754900; }
+
+/* Set Hover */
+.menu-dropdown li.level1:hover .level1,
+.menu-dropdown li.remain .level1 { color: #fff; background:#a16500; }
+
+.menu-dropdown li.level2 { 
+	margin: 2px;
+	border-top: none;
+}
+
+.menu-dropdown a.level2,
+.menu-dropdown span.level2 {
+	background: #754900;
+	color: #fff;
+}
+
+.menu-dropdown a.level2:hover { color: #fff; background: #a16500;}
+
+.menu-dropdown a.level2 > span,
+.menu-dropdown span.level2 > span { padding: 5px 6px; }
+
+.menu-dropdown a.level3 {
+	padding-left: 20px;
+	color: #fff;
+}
+
+.menu-dropdown .dropdown-bg > div {
+	padding: 2px;
+	border: none;
+	border-top: none;
+	background: #3b2500;
+	color:#fff;
+}
+
+.menu-sidebar a,
+.menu-sidebar li > span { color: #178ee9; }
+
+.menu-sidebar li.level1 { border-top: 1px solid #ffc747; }
+
+
+/*modules*/
+.mod-box {
+	padding: 15px;
+	border: none;
+	background:#ffe19c;
+}
+
+
+/*base*/
+body {color:#000000;}
+
+h1, h2, h3, h4, h5, h6 {color:#3b2500;}
+
+a {color:#178ee9;}
+
+hr {
+border-top-color: #ffc747;
+}
+
+
+/*tools*/
+ul.zebra > li,
+table.zebra tbody td { border-bottom: 1px solid #ffc747; }
+ul.zebra > li:first-child,
+table.zebra tbody tr:first-child td { border-top: 1px solid #ffc747; }
+
+ul.zebra > li.odd,
+table.zebra tbody tr.odd { background: #ffe19c; }
+ul.zebra > li:nth-of-type(odd),
+table.zebra tbody tr:nth-of-type(odd) { background: #ffe19c; }
+
+table.zebra caption { color: #000; }
+
+ul.line > li { border-top: 1px solid #ffc747; }
+
+dl.separator dd {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	border-color: #ffc747;
+}
+
+dl.separator dt:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -15px;
+	width: 30px;
+	border-top: 1px solid #ffc747;
+}
+
+dl.separator dt:after {
+	content: "";
+	position:absolute;
+	top: -3px;
+	right: -3px;
+	width: 5px;
+	height: 5px;
+	background: #FFF;
+	border: 1px solid #ffc747;
+	border-radius:6px;
+}

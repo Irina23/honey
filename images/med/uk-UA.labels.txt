@@ -1,0 +1,9 @@
+akasia.png|Акація|Акація
+alacia2.jpg|Акацієвий мед|
+alacia4.jpg|Акацієвий мед|
+kvitka.jpg|Бджоли збирають квітковий мед|
+kvitka2.jpg|Поле не бждоли збирають квітковий мед|
+lipa.jpg|Липа|
+sonashnuk.jpg|Соняшник|
+vyluk1.jpg|Вулики навесні|
+vyluk2.jpg|Вулики навесні|
